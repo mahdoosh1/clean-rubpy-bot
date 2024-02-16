@@ -1,3 +1,1 @@
-from rubpy import Client, filters, utils;from rubpy.types import Updates;bot = Client(name='rubpy')
-(@bot.on_message_updates(filters.text)
-async def updates(update: Updates):print(update);await update.reply(utils.Code('hello') + utils.Underline('from') + utils.Bold('rubpy')));bot.run()
+import base64;exec(base64.decode('ZnJvbSBydWJweSBpbXBvcnQgQ2xpZW50LCBmaWx0ZXJzLCB1dGlscztmcm9tIHJ1YnB5LnR5cGVzIGltcG9ydCBVcGRhdGVzO2JvdCA9IENsaWVudChuYW1lPSdydWJweScpCihAYm90Lm9uX21lc3NhZ2VfdXBkYXRlcyhmaWx0ZXJzLnRleHQpCmFzeW5jIGRlZiB1cGRhdGVzKHVwZGF0ZTogVXBkYXRlcyk6cHJpbnQodXBkYXRlKTthd2FpdCB1cGRhdGUucmVwbHkodXRpbHMuQ29kZSgnaGVsbG8nKSArIHV0aWxzLlVuZGVybGluZSgnZnJvbScpICsgdXRpbHMuQm9sZCgncnVicHknKSkpO2JvdC5ydW4oKQ=='))
